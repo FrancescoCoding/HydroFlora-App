@@ -40,6 +40,7 @@ The software is released under the MIT License, which means that it is free to u
 ### Navigation Graph:
 ![image](https://user-images.githubusercontent.com/64712227/205894208-397f1ca6-5369-40b6-b2ca-7b2eb4fc9c9d.png)
 
+### App Structure:
 - Landing Page:
     - The Landing Page is the first page the user encounters when opening the app. It is meant to be a simple and friendly explanation about what the app wants to accomplish. It features a big action button, which sends the user directly to the core view of the app: the Schedule.
     - All of its methods are implemented in the onCreateView method, since it makes it easier to work with the view.
