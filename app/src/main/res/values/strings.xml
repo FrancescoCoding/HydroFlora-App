@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HydroFlora</string>
+    <string name="app_description">The HydroFlora app is designed to help you track your plants\' water intake. It\'s as easy as taking a picture of your house plant and selecting its type along with how often it should be watered.</string>
+    <string name="get_started">Get Started</string>
+    <string name="logo">Logo</string>
+    <string name="your_plants_schedule">Plants\' Schedule</string>
+    <string name="water">Water</string>
+    <string name="camera_icon">Camera icon</string>
+    <string name="plant_image">Plant image</string>
+    <string name="no_plants">Take a snap of your first plant!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_be_watered_in">To be watered in:</string>
+    <string name="schedule">Schedule</string>
+    <string name="plant_sample_name">Plantogenes</string>
+    <string name="plant_sample_days">254 days</string>
+    <string name="continue_button">Continue</string>
+    <string name="plantocrates">Plantocrates</string>
+    <string name="your_plant_has_been_added">Your plant has been added!</string>
+    <string name="your_plant_has_been_removed">Your plant has been removed!</string>
+    <string name="cactus">Cactus</string>
+    <string name="app_logo">App logo</string>
+    <string name="track_your_plants_water_intake">Track your plants\' water intake</string>
+    <string name="add_a_plant">Add a plant 🪴</string>
+    <string name="plants">Plants</string>
+    <string name="camera_button_to_take_a_picture">Camera button to take a picture</string>
+    <string name="plant_name">Plant name</string>
+    <string name="enter_plant_type">Enter plant type</string>
+    <string name="how_often_should_this_plant_be_watered">How often should this plant be watered?</string>
+    <string name="enter_number_of_days">Enter number of days</string>
+    <string name="plant_type">Plant type</string>
+    <string name="enter_plant_name">Enter plant name</string>
+    <string name="add_first_watering_date">Add first watering date</string>
+    <string name="open_calendar_view">Open calendar view</string>
+    <string name="remove">Remove</string>
+    <string name="to_be_watered_every_123_days">To be watered every 123 days</string>
+    <string name="_254_days">254 days</string>
+</resources>

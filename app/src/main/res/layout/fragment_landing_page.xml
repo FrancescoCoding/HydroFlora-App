@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".LandingPage">
+    <!-- Line at the top -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="#00AA95" />
+
+    <!-- Logo image -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hydro2flora"
+        android:contentDescription="@string/app_logo"
+        android:layout_marginHorizontal="35dp"
+        android:translationY="-10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/track_your_plants_water_intake"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationY="-60dp"
+        android:translationX="40dp"
+        android:layout_gravity="center"
+        />
+
+    <!-- App description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="600dp"
+        android:text="@string/app_description"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Constraint layout to make button stay at the bottom responsively -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/get_started"
+            android:layout_width="257dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/action_button"
+            android:backgroundTint="@color/accent"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/get_started"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textFontWeight="450"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.741"
+            tools:ignore="TextContrastCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

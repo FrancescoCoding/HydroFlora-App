@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/landingPage">
+
+    <fragment
+        android:id="@+id/landingPage"
+        android:name="gruosso.francesco.hydroflora.LandingPage"
+        android:label="fragment_landing_page"
+        tools:layout="@layout/fragment_landing_page" >
+        <action
+            android:id="@+id/action_landingPage_to_plantsSchedule"
+            app:destination="@id/plantsSchedule" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantsSchedule"
+        android:name="gruosso.francesco.hydroflora.PlantsScheduleViewFragment"
+        android:label="fragment_plants_schedule"
+        tools:layout="@layout/fragment_plants_schedule" >
+        <action
+            android:id="@+id/action_plantsSchedule_to_plantInfo"
+            app:destination="@id/plantInfo" />
+        <action
+            android:id="@+id/action_plantsSchedule_to_addPlantOptions"
+            app:destination="@id/addPlantOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantInfo"
+        android:name="gruosso.francesco.hydroflora.PlantInfo"
+        android:label="fragment_plant_info"
+        tools:layout="@layout/fragment_plant_info" >
+        <action
+            android:id="@+id/action_plantInfo_to_plantsSchedule"
+            app:destination="@id/plantsSchedule" />
+        <action
+            android:id="@+id/action_plantInfo_to_plantRemoved"
+            app:destination="@id/plantRemoved" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPlantOptions"
+        android:name="gruosso.francesco.hydroflora.AddPlantOptions"
+        android:label="fragment_add_plant_options"
+        tools:layout="@layout/fragment_add_plant_options" >
+        <action
+            android:id="@+id/action_addPlantOptions_to_plantsSchedule"
+            app:destination="@id/plantsSchedule" />
+        <action
+            android:id="@+id/action_addPlantOptions_to_plantAdded"
+            app:destination="@id/plantAdded" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantAdded"
+        android:name="gruosso.francesco.hydroflora.PlantAdded"
+        android:label="fragment_plant_added"
+        tools:layout="@layout/fragment_plant_added" >
+        <action
+            android:id="@+id/action_plantAdded_to_plantsSchedule"
+            app:destination="@id/plantsSchedule" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantRemoved"
+        android:name="gruosso.francesco.hydroflora.PlantRemoved"
+        android:label="fragment_plant_removed"
+        tools:layout="@layout/fragment_plant_removed" >
+        <action
+            android:id="@+id/action_plantRemoved_to_plantsSchedule"
+            app:destination="@id/plantsSchedule" />
+    </fragment>
+</navigation>
