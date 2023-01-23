@@ -6,7 +6,7 @@ The HydroFlora app is designed to help you track your plants' water intake. It's
 
 ## Built in Java using Android Studio and utilizing native Android features
 
-# License
+# 0. License
 The software is released under the MIT License, which means that it is free to use, distribute, and modify. The only requirement is that the original copyright notice and license must be included in any copies or derivatives of the software. This means that you are free to use the software for any purpose, including commercial use, and can distribute and make changes to the code as long as you credit the original authors. However, the software is provided "as is" and the authors are not liable for any damages arising from the use of the software.
 
 # 1. App Plan 📝
